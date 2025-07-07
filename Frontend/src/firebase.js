@@ -4,14 +4,15 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
 // Your Firebase config
 const firebaseConfig = {
-  apiKey: "AIzaSyDyUKYcrl7zNfQ_5KGY49BNrmzUDcfC7vI",
-  authDomain: "nft-gallery-6d7b4.firebaseapp.com",
-  projectId: "nft-gallery-6d7b4",
-  storageBucket: "nft-gallery-6d7b4.appspot.com",
-  messagingSenderId: "985459773211",
-  appId: "1:985459773211:web:eb6d27f32d33999865cdbe",
-  measurementId: "G-JF21FXLB8M"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
 };
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
