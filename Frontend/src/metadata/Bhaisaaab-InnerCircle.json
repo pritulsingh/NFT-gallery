@@ -1,0 +1,31 @@
+{
+  "name": "Bhaisaaab Inner Circle",
+  "description": "Granted only to the most trusted and committed members of the Bhaisaaab community. This NFT represents loyalty, contribution, and a seat at the inner table.",
+  "image": "ipfs://bafkreifz5ni3tq55utrwg4edrbpw3r3mtzfgzrzb3pmyx7lf2sejqhn3qy",
+  "attributes": [
+    {
+      "trait_type": "Tier",
+      "value": "Inner Circle"
+    },
+    {
+      "trait_type": "Community",
+      "value": "Bhaisaaab"
+    },
+    {
+      "trait_type": "Origin",
+      "value": "Ethereum"
+    },
+    {
+      "trait_type": "Access Level",
+      "value": "Private"
+    },
+    {
+      "trait_type": "Membership Role",
+      "value": "Core Member"
+    },
+    {
+      "trait_type": "Recognition",
+      "value": "Trusted"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 64px;
+  background-color: #000;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  font-family: sans-serif;
+}
+/* In styles/header.css or global.css */
+.modal {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  display: flex; justify-content: center; align-items: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.brand-tag {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: 'Arial', sans-serif;
+}
+
+.brand-code {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff4400; /* or #ff4400 */
+  letter-spacing: 2px;
+}
+
+.brand-origin {
+  font-size: 14px;
+  color: #efc8c8;
+  margin-top: 2px;
+  font-style: italic;
+}
+
+
+.nav {
+  display: flex;
+  gap: 32px;
+  font-size: 15px;
+  margin-left: auto;
+  margin-right: 24px;
+}
+
+.nav a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: rgb(92, 49, 145);
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+}
+
+/* .btn-outline {
+  padding: 6px 16px;
+  background: transparent;
+  color: white;
+  border: 1px solid #444;
+  border-radius: 999px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+} */
+.btn-solid {
+  padding: 6px 16px;
+  background-color: #ff4400;
+  color: white;
+  border: none;
+  border-radius: 999px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s, color 0.3s;
+}
+
+.btn-solid:hover {
+  background-color: #281f5a;
+}
+.welcome-msg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #030303;
+  color: #0d06d8e9;
+}

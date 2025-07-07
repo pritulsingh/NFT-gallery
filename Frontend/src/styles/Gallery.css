@@ -1,0 +1,81 @@
+.gallery-section {
+  padding: 2rem;
+  background-color: #111;
+  color: rgb(190, 164, 70);
+}
+
+.gallery-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.nft-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.nft-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.nft-info,
+.nft-image {
+  flex: 1;
+  max-width: 500px;
+  padding: 1rem;
+  background: #000000;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+.nft-info:hover{
+    box-shadow: 0 0 12px rgba(255, 0, 0, 0.4);
+}
+.nft-image:hover{
+    box-shadow: 0 0 12px rgba(255, 0, 0, 0.4);
+}
+.nft-info h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.nft-info p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.nft-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nft-info li {
+  margin-bottom: 0.4rem;
+}
+
+.nft-info li strong {
+  color: #a0c7ff;
+}
+
+.nft-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.section-heading {
+  font-weight: bold;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  border-bottom: 2px solid #9dff00;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+}

@@ -1,0 +1,152 @@
+/* Overlay behind modal */
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* Modal box */
+.modal-box {
+  background: #0e0101;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 320px;
+  max-width: 90%;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Header text */
+.modal-box h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* Tab switch (Login / Sign Up) */
+.tab-switch {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.tab-switch button {
+  padding: 0.5rem 1rem;
+  margin: 0 0.25rem;
+  border: none;
+  background: #811717;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.tab-switch .active {
+  background: #1e0808;
+  color: white;
+}
+
+/* Google button */
+.google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 1rem;
+  padding: 0.6rem;
+  width: 100%;
+  background: #4285F4;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.google-btn:hover {
+  background: #357ae8;
+}
+
+/* Divider */
+.or-divider {
+  margin: 1rem 0;
+  font-size: 0.85rem;
+  color: #9e9898;
+  position: relative;
+}
+
+.or-divider::before,
+.or-divider::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  height: 1px;
+  background: #997373;
+}
+
+.or-divider::before {
+  left: 0;
+}
+
+.or-divider::after {
+  right: 0;
+}
+
+/* Input fields */
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.55rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #683333;
+  transition: 0.2s ease;
+}
+
+input:focus {
+  border-color: #c98d8d;
+  outline: none;
+}
+
+/* Submit button */
+.submit-btn {
+  background: #451d1d;
+  color: white;
+  padding: 0.65rem;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.submit-btn:hover {
+  background: #211f1f;
+}
+
+/* Close button */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 1.4rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  transition: 0.2s ease;
+}
+
+.close-btn:hover {
+  color: #d52b2b;
+}

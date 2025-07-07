@@ -1,0 +1,31 @@
+{
+  "name": "Bhaisaaab Officials",
+  "description": "This NFT honors the leaders, mentors, and visionaries who guide the Bhaisaaab community. Reserved for the most respected members, this badge signifies experience, governance, and legacy.",
+  "image": "ipfs://bafkreicy5icrp2ocraw7ngc6yxw2s6yvhbo42qr4qeiomx7na42tjm72mq",
+  "attributes": [
+    {
+      "trait_type": "Tier",
+      "value": "Seniority"
+    },
+    {
+      "trait_type": "Community",
+      "value": "Bhaisaaab"
+    },
+    {
+      "trait_type": "Origin",
+      "value": "Ethereum"
+    },
+    {
+      "trait_type": "Access Level",
+      "value": "Leadership"
+    },
+    {
+      "trait_type": "Membership Role",
+      "value": "Official"
+    },
+    {
+      "trait_type": "Recognition",
+      "value": "Legacy"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+.my-nft-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.my-nft-container h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.nft-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.nft-card {
+  background-color: #020506;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px #ff000080;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+  border: 1px solid #ff000080;
+}
+
+.nft-card:hover {
+  transform: translateY(-5px);
+}
+
+.nft-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-bottom: 1px solid #ff0000;
+}
+
+.nft-card h3 {
+  margin: 1rem;
+  font-size: 1.2rem;
+  color: #ffe100;
+}
+
+.nft-card p {
+  margin: 0 1rem 1rem;
+  color: #ee0000;
+  font-size: 0.95rem;
+}
+
+.nft-card ul {
+  list-style: none;
+  padding: 0 1rem 1rem;
+  margin: 0;
+}
+
+.nft-card ul li {
+  font-size: 0.85rem;
+  margin-bottom: 0.3rem;
+  color: #ffffff;
+}
+
+.my-nft-container p {
+  text-align: center;
+  font-size: 1rem;
+  color: #ffffff;
+}
+.connect-wallet-btn {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  display: block;
+  margin: 1rem auto;
+  transition: background-color 0.3s;
+}
+
+.connect-wallet-btn:hover {
+  background-color: #2563eb;
+}
+
+.status-msg {
+  text-align: center;
+  margin-top: 1rem;
+  color: #666;
+}
+.heading-nft-container{
+  color: #ffea00;
+}
+.section-header {
+  text-align: center;
+  margin-top: 2rem;
+  color: #d1a857; /* golden-brown shade */
+}
+
+.section-header h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.section-underline {
+  width: 100%;
+  max-width: 1100px;         /* 5100px is unnecessary; it won’t affect real viewports */
+  height: 4px;               /* increased thickness */
+  margin: 1rem auto 2rem;    /* spacing above and below */
+  border: none;
+  background-color: #ccff00; /* bright neon */
+  box-shadow: 0 0 8px #000000; /* optional glow effect */
+}
+

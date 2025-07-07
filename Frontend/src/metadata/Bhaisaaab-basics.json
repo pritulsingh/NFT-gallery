@@ -1,0 +1,27 @@
+{
+  "name": "Bhaisaaab Basics",
+  "description": "This NFT represents entry-level membership into the Bhaisaaab community. It's your first step into a network of visionaries, creators, and legends.",
+  "image": "ipfs://bafkreifgokp7v3zojhwsonjzdhmdrq4jv4sufivgnknobzlg6bcpkhnln4",
+  "attributes": [
+    {
+      "trait_type": "Tier",
+      "value": "Basics"
+    },
+    {
+      "trait_type": "Community",
+      "value": "Bhaisaaab"
+    },
+    {
+      "trait_type": "Origin",
+      "value": "Ethereum"
+    },
+    {
+      "trait_type": "Access Level",
+      "value": "Public"
+    },
+    {
+      "trait_type": "Membership Role",
+      "value": "Initiate"
+    }
+  ]
+}

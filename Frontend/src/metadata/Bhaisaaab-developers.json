@@ -1,0 +1,31 @@
+{
+  "name": "Bhaisaaab Developer",
+  "description": "Awarded to builders, thinkers, and contributors shaping the Bhaisaaab community through code and innovation. This NFT represents your technical journey and commitment.",
+  "image": "ipfs://bafkreib4upd66mvrtgvrbqq5erc4h4ca3tlexays2qc3yrg72h4vhumgt4",
+  "attributes": [
+    {
+      "trait_type": "Tier",
+      "value": "Developer"
+    },
+    {
+      "trait_type": "Community",
+      "value": "Bhaisaaab"
+    },
+    {
+      "trait_type": "Origin",
+      "value": "Ethereum"
+    },
+    {
+      "trait_type": "Access Level",
+      "value": "Builder"
+    },
+    {
+      "trait_type": "Membership Role",
+      "value": "Developer"
+    },
+    {
+      "trait_type": "Skills",
+      "value": "Solidity, Rust, Ink!, Cairo"
+    }
+  ]
+}
